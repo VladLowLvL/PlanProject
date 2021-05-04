@@ -1,4 +1,7 @@
 .body {
+  -webkit-box-shadow: 0px 5px 10px 10px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 10px 10px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 10px 10px rgba(34, 60, 80, 0.2);
   margin-left: auto;
   margin-right: auto;
   max-width: 1400px;
@@ -39,24 +42,25 @@ a {
   margin-left: 10%;
 }
 
-.main-text-in-header {
-  margin-left: 18%;
-  margin-top: 10%;
-  position: absolute;
+.body-img {
+  background-image: url(./img/rectangle_1_4598.png);
+  width: 1400px;
+  height: 779px;
+}
+
+.main-text {
   font-size: 60px;
   line-height: 22px;
   font-weight: 600;
   letter-spacing: 0.05em;
   color: #ffffff;
+  margin: 0;
 }
 
-.coment-in-header {
-  position: absolute;
+.second-text {
   font-size: 22px;
   line-height: 22px;
   font-weight: 400;
   letter-spacing: 0.05em;
   color: #ffffff;
-  margin-left: 24%;
-  margin-top: 14%;
 }
