@@ -40,6 +40,9 @@ a {
 }
 
 .main-text-in-header {
+  display: block;
+
+  position: absolute;
   font-size: 60px;
   line-height: 12px;
   font-weight: 600;
