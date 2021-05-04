@@ -1,0 +1,48 @@
+.body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1400px;
+  background-color: brown;
+}
+
+html {
+  font-family: "Open Sans";
+}
+
+.nav-text {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #212121;
+  float: left;
+  margin-left: 35px;
+}
+.nav-logo {
+  margin-left: 30%;
+  font-size: 25px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #212121;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-bar {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.nav-menu {
+  margin-left: 10%;
+}
+
+.main-text-in-header {
+  font-size: 60px;
+  line-height: 12px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
